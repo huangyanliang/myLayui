@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="plugins/layui/css/layui.css" media="all" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+
+	<body>
+		<div class="main_box">
+			<div class="main_box_t"><span>服务器使用情况</span></div>
+			<div class="main_box_3">
+				<h3>vCPU数量</h3>
+				<div class="main_box_3_c">
+					<div class="pie" id="pie1"></div>
+					<div class="pie_center color1">4%</div>
+				</div>
+				<div class="main_box_3_d">已用<b> 0 </b>核/总计<b> 50 </b>核</div>
+			</div>
+			<div class="main_box_3">
+				<h3>内存空间</h3>
+				<div class="main_box_3_c">
+					<div class="pie" id="pie2"></div>
+					<div class="pie_center color2">4%</div>
+				</div>
+				<div class="main_box_3_d">已用<b> 13.00 </b>GB/总计<b> 31.18 </b>GB</div>
+			</div>
+			<div class="main_box_3">
+				<h3>运行状态</h3>
+			</div>
+			<a class="read_more" href="">查看详情</a>
+		</div>
+		
+		<div class="main_box">
+			<div class="main_box_t"><span>存储使用情况</span></div>
+			<div class="main_box_3">
+				<h3>存储空间</h3>
+				<div class="main_box_3_c">
+					<div class="pie" id="pie3"></div>
+					<div class="pie_center color3">4%</div>
+				</div>
+				<div class="main_box_3_d">已用<b> 13.00 </b>GB/总计<b> 31.18 </b>GB</div>
+			</div>
+			<div class="main_box_3">
+				<h3>当前I/O数据</h3>
+				<div class="main_box_3_l">
+					<p>读/秒</p>
+					<div class="IO"><span>0</span> MB/S</div>
+				</div>
+				<div class="main_box_3_r">
+					<p>写/秒</p>
+					<div class="IO"><span>0</span> MB/S</div>
+				</div>
+			</div>
+			<div class="main_box_3">
+				<h3>存储</h3>
+			</div>
+			<a class="read_more" href="">查看详情</a>
+		</div>
+		
+		<div class="main_box_d">
+			<div class="main_box_t"><span>虚机运行状态</span></div>
+			<div class="pie" id="pie4"></div>
+			<a class="read_more" href="">查看详情</a>
+		</div>
+		<div class="main_box_d">
+			<div class="main_box_t"><span>License配额使用</span></div>
+			<div class="pie" id="pie5"></div>
+			
+		</div>
+		
+		<script type="text/javascript" src="./js/echarts.common.min.js"></script>
+		<script type="text/javascript" src="./js/public.js"></script>
+	</body>
+
+</html>

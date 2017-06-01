@@ -1,0 +1,129 @@
+.main_box{
+	width:98%;
+	height: 300px;
+	border:#ddd solid 1px;
+	border-radius: 5px;
+	margin:0 auto;
+	margin-top:20px;
+	position: relative;
+}
+.main_box_t{
+	width:100%;
+	height:35px;
+	line-height: 35px;
+	background:#DFDFDF;
+}
+.main_box_t span{
+	margin-left:10px;
+	color:#666;
+}
+.main_box_d{
+	box-sizing: border-box;
+	width:48.5%;
+	height: 220px;
+	border:#ddd solid 1px;
+	border-radius: 5px;
+	float:left;
+	margin-top:20px;
+	margin-left:1%;
+	margin-bottom:20px;
+	position: relative;
+}
+.main_box_3{
+	width: 33.33%;
+	height: 265px;
+	float: left;
+}
+.main_box_3 h3{
+	text-align:center;
+	font-size:20px;
+	margin-top:20px;
+	color:#666;
+}
+.pie{
+	width:160px;
+	height:160px;
+	margin:13px auto;
+}
+.main_box_3_d{
+	text-align:center;
+	color:#999;
+}
+.main_box_3_d b{
+	color:#5FB878;
+	font-style: italic;
+	font-weight:normal;
+}
+.main_box_3_c{
+	overflow: hidden;
+	position: relative;
+}
+.pie_center{
+	position: absolute;
+	width:110px;
+	font-size:36px;
+	text-align:center;
+	top:50%;
+	left:50%;
+	margin-left:-55px;
+	transform: translateY(-50%);
+}
+.color1{
+	color:#8d94a0;
+}
+.color2{
+	color:#94addf;
+}
+.color3{
+	color:#ce831e;
+}
+.color4{
+	color:#dd1b1b;
+}
+.color5{
+	color:#ffba00;
+}
+.main_box_3_l,.main_box_3_r{
+	width:46%;
+	float:left;
+	margin:0px 2%;
+	margin-top:20px;
+	
+}
+.main_box_3_l,.main_box_3_r p{
+	line-height: 30px;
+	color:#666;
+}
+.IO{
+	height:100px;
+	line-height: 100px;
+	color:#999;
+	font-size: 20px;
+    padding: 20px;
+    margin: 0px;
+    color: #666;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #f6f6f6;
+    text-align: center;
+    font-style: italic;
+}
+@font-face {
+font-family: led;/*/×定义font的名字×/*/
+src: url('../plugins/layui/font/LED.ttf');/*把下载的字体文件引入进来*/
+} 
+.IO span{
+	color: #5cb85c;
+    font-size: 50px;
+    font-family: led;
+    font-style:normal;
+}
+
+.read_more{
+	position: absolute;
+	right:10px;
+	top:45px;
+	border:1px #ddd solid;
+	padding:0px 5px;
+	border-radius: 3px;
+}

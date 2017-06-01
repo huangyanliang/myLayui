@@ -1,0 +1,78 @@
+[
+	{
+		"title": "服务器控制",
+		"icon": "fa-cubes",
+		"spread": true,
+		"children": [
+			{
+				"title": "服务器监控",
+				"icon": "&#xe641;",
+				"href": "table.html"
+			}, {
+				"title": "存储监控",
+				"icon": "&#xe63c;",
+				"href": "form.html"
+			}
+		]
+	}, {
+		"title": "用户管理",
+		"icon": "fa-cogs",
+		"spread": false,
+		"href": ""
+	}, {
+		"title": "虚拟机管理",
+		"icon": "&#x1002;",
+		"spread": false,
+		"children": [
+			{
+				"title": "虚拟机管理",
+				"icon": "fa-check-square-o",
+				"href": "icheck.html"
+			},{
+				"title": "虚拟机回收",
+				"icon": "fa-check-square-o",
+				"href": "icheck.html"
+			}
+		]
+	}, {
+		"title": "虚拟机模板",
+		"icon": "fa-cogs",
+		"spread": false,
+		"href": ""
+	}, {
+		"title": "镜像管理",
+		"icon": "fa-cogs",
+		"spread": false,
+		"href": ""
+	}, {
+		"title": "网络管理",
+		"icon": "fa-address-book",
+		"spread": false,
+		"children": [
+			{
+				"title": "网络管理",
+				"icon": "fa-github",
+				"href": ""
+			}, {
+				"title": "路由管理",
+				"icon": "fa-qq",
+				"href": ""
+			}
+		]
+	}, {
+		"title": "系统管理",
+		"icon": "fa-stop-circle",
+		"spread": false,
+		"children": [
+			{
+				"title": "日志管理",
+				"icon": "fa-github",
+				"href": ""
+			}, {
+				"title": "定时任务",
+				"icon": "fa-qq",
+				"href": ""
+			}
+		]
+	}
+]
