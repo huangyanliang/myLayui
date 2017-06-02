@@ -7,7 +7,7 @@
 			{
 				"title": "服务器监控",
 				"icon": "&#xe641;",
-				"href": "table.html"
+				"href": "performanceList.html"
 			}, {
 				"title": "存储监控",
 				"icon": "&#xe63c;",
@@ -52,11 +52,11 @@
 			{
 				"title": "网络管理",
 				"icon": "fa-github",
-				"href": ""
+				"href": "netList.html"
 			}, {
 				"title": "路由管理",
 				"icon": "fa-qq",
-				"href": ""
+				"href": "routerList.html"
 			}
 		]
 	}, {

@@ -1,6 +1,4 @@
-layui.config({
-	base: 'js/'
-}).use(['element', 'layer', 'navbar', 'tab'], function() {
+layui.use(['element', 'layer', 'navbar', 'tab'], function() {
 	var element = layui.element()
 	$ = layui.jquery,
 		layer = layui.layer,
@@ -37,32 +35,6 @@ layui.config({
 				default:
 					break;
 			}
-			//设置数据源有两个方式。
-			//第一：在此页面通过ajax读取设置  举个栗子：
-			//---------这是第一个栗子----------
-			/*$.getJSON('/api/xxx',{moduleId:id},function(data){
-				navbar.set({
-					elem: '#side',
-					data: data
-				});
-				navbar.render();
-				navbar.on('click(side)', function(data) {
-					tab.tabAdd(data.field);
-				});
-			});*/
-			//------------栗子结束--------------
-			//第二：设置url
-			//---------这是第二个栗子----------
-			/*navbar.set({
-				elem: '#side',
-				url: '/api/xxx?moduleId='+id
-			});
-			navbar.render();
-			navbar.on('click(side)', function(data) {
-				tab.tabAdd(data.field);
-			});*/
-			//------------栗子结束--------------	
-
 			//设置navbar
 			navbar.set({
 				elem: '#side', //存在navbar数据的容器ID
